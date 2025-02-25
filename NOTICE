@@ -1,0 +1,9 @@
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+Several modifications have been made for RefGrasp, including:
+1. modified train.py for training with layer freezing
+2. modified trainer.py for loading checkpoints
+3. modified task/refcoco.py, data/refgrasp_dataset.py for RefGrasp dataset
+4. added polyformer/convnext.py, polyformer/polyformer_rgbd.py, 
+   modified polyformer/polyformer.py, polyformer/unify_transformer.py for RGBD model
+5. other minor modifications

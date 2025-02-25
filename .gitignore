@@ -1,0 +1,16 @@
+# exclude datasets
+/datasets
+# exclude pycaches in all directories
+__pycache__/
+# exclude all but .sh files in run_scripts
+/run_scripts/**/*.*
+/run_scripts/finetune/*
+!/run_scripts/**/*.sh
+# exclude evaluation results
+/results*
+# exlude .out
+*.out
+# exclude .vscode
+.vscode/
+# exclude checkpoints
+/checkpoints
