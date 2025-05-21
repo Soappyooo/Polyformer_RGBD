@@ -21,7 +21,6 @@ from fairseq.tasks import register_task
 from tasks.base_task import BaseTask, BaseConfig, load_bert_pretrained_weights
 
 from data.refgrasp_dataset import RefgraspDataset
-from data.refgrasp_dataset import RoborefitDataset
 from data.refgrasp_dataset import MixedRGBDataset
 
 ###
